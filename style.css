@@ -502,31 +502,25 @@ h3 {
         text-align: center;
     }
 
-    h1,
-    h2,
-    h3 {
+    h1, h2, h3 {
         font-size: 1.5rem;
-        /* Ajustar tamanho da fonte */
     }
 
     .container-cta {
         flex-direction: column;
-        /* Ajustar layout de colunas para linhas */
     }
 
     .img-cliente {
         width: 50px;
-        /* Reduzir o tamanho das imagens */
+
     }
 }
 
 /* Para telas menores que 480px (smartphones) */
 @media (max-width: 480px) {
 
-    h1,
-    h2 {
+    h1, h2, h3 {
         font-size: 1.2rem;
-        /* Diminuir ainda mais o tamanho da fonte */
     }
 
     .cta1 {
@@ -536,17 +530,14 @@ h3 {
 
     .img-cliente {
         width: 40px;
-        /* Reduzir imagens para telas bem pequenas */
     }
 
     .cards-container {
         flex-direction: column;
-        /* Empilhar os cards verticalmente */
     }
 
     .card {
         width: 100%;
-        /* Garantir que os cards ocupem toda a largura disponível */
         margin-bottom: 20px;
     }
 }
