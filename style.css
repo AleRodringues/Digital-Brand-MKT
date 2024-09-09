@@ -1,0 +1,552 @@
+body {
+    background-color: #191919;
+    background-image: url('assets/images/noisy-texture-100x100-o5-d19-c-191919-t0.png');
+    background-repeat: repeat;
+    background-size: auto;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle-top-left1 {
+    position: absolute;
+    top: -100px;
+    left: -200px;
+    width: 300px;
+    height: 300px;
+    background-color: #2F5FE3;
+    border-radius: 50%;
+    filter: blur(200px);
+}
+
+.circle-top-right1 {
+    position: absolute;
+    top: 800px;
+    left: 2000px;
+    width: 300px;
+    height: 300px;
+    background-color: #2F5FE3;
+    border-radius: 50%;
+    filter: blur(200px);
+}
+
+
+/* Textos */
+
+@font-face {
+    font-family: 'Bungee';
+    src: url('assets/fonts/BungeeColor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bungee-font {
+    font-family: 'Bungee', cursive;
+}
+
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+}
+
+.font-azul {
+    color: #2F5FE3;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
+}
+
+.font-azul-mini {
+    color: #2F5FE3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.font-azul-mini2 {
+    color: #2F5FE3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    color: #a5a5a5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Section Banner */
+
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30;
+    margin-top: 200px;
+}
+
+.banner-section h2 {
+    margin: 0;
+}
+
+/* Container CTA */
+
+.container-cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+
+/* Estilo do botão CTA 1 */
+.cta1 {
+    background-color: #2f5fe3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta1:hover {
+    background-color: #1e4ab7;
+}
+
+.cta1 i {
+    margin-left: 8px;
+    font-size: 18px;
+    transform: rotate(320deg);
+}
+
+
+/* Clientes + Texto */
+
+.container-500 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.img-cliente {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: -35px;
+    width: 45px;
+    height: 45px;
+}
+
+
+.img-clientes {
+    display: flex;
+    object-fit: contain;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* Tarja Ferramentas */
+
+.tarja {
+    background-color: #2f5fe3;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+.tarja-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.tarja-item p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+}
+
+
+
+/* Section PORQUE */
+
+.container-porque {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    align-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.container-itens-pq {
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Industrial {
+    height: 380px;
+    width: 380px;
+}
+
+.circle-with-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    background-color: #2f5fe3;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    font-size: 32px;
+}
+
+/* Estilos para a seta */
+.arrow {
+    width: 250px;
+    height: 5px;
+    background-color: #2f5fe3;
+    position: relative;
+}
+
+.arrow::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(320deg);
+    width: 10px;
+    height: 10px;
+    border: solid #2f5fe3;
+    border-width: 0 3px 3px 0;
+}
+
+.txt-pq1 {
+    color: #fff;
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+
+.txt-pq2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+/* Estratégia */
+
+.Estrategia {
+    background-color: #2f5fe3;
+    padding: 150px;
+}
+
+.container-Estrategia {
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.txt-branco {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.txt-bold {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Cards Estratégia */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2F5FE3;
+}
+
+.card p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 350px;
+}
+
+
+
+/* CTA */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.cta-box {
+    background-color: #323232;
+    border: 1.6px solid #818181;
+    border-radius: 50px;
+    padding: 30px;
+    width: 1145px;
+    text-align: center;
+    color: white;
+}
+
+.cta-box h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.cta-box p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 1.5;
+}
+
+.cta2 {
+    background-color: #30B640;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.cta2:hover {
+    background-color: #28a745;
+}
+
+.cta2 i {
+    margin-left: 8px;
+    font-size: 18px;
+    transform: rotate(320deg);
+}
+
+
+
+/* Sobre */
+
+
+.Sobre {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.success-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+.story-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    border: 1.6px solid #a3a3a3;
+    background: linear-gradient(66deg, rgba(219, 219, 219, 0.03) 30%, rgba(34, 34, 34, 0.57) 100%);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.story-text {
+    margin-top: 50px;
+    padding: 50px;
+    flex: 1;
+    color: #fff;
+}
+
+.story-text h2 {
+    margin-bottom: 20px;
+}
+
+.story-text h3 {
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.story-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 150px;
+    color: rgb(199, 199, 199);
+    padding: 0px 0;
+    border-top: 2px solid #2f5fe3;
+    text-align: left;
+}
+
+.footer-content {
+    margin-left: 150px;
+}
+
+
+/* Para telas menores que 768px (tablets) */
+@media (max-width: 768px) {
+    .banner-section {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.5rem;
+        /* Ajustar tamanho da fonte */
+    }
+
+    .container-cta {
+        flex-direction: column;
+        /* Ajustar layout de colunas para linhas */
+    }
+
+    .img-cliente {
+        width: 50px;
+        /* Reduzir o tamanho das imagens */
+    }
+}
+
+/* Para telas menores que 480px (smartphones) */
+@media (max-width: 480px) {
+
+    h1,
+    h2 {
+        font-size: 1.2rem;
+        /* Diminuir ainda mais o tamanho da fonte */
+    }
+
+    .cta1 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-cliente {
+        width: 40px;
+        /* Reduzir imagens para telas bem pequenas */
+    }
+
+    .cards-container {
+        flex-direction: column;
+        /* Empilhar os cards verticalmente */
+    }
+
+    .card {
+        width: 100%;
+        /* Garantir que os cards ocupem toda a largura disponível */
+        margin-bottom: 20px;
+    }
+}
